@@ -48,12 +48,12 @@ p {
     color: #4d5ae5;
 }
 
-.navigation > .header-logo > span {
+.logo-span {
     color: #2e2f42;
     font-family: "Raleway", sans-serif;
 }
 
-.nav-list > li > .nav-link {
+.nav-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5; 
@@ -69,8 +69,7 @@ p {
     font-style: normal;
 }
 
-.address-list .address-link {
-    font-weight: 400;
+.address-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -84,27 +83,26 @@ p {
     background-color: #2e2f42;
 }
 
-.hero > .hero-title {
+.hero-title {
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     text-align: center;
-    color:  #fff;
+    color:  #ffffff;
 }
 
-.hero > .hero-button {
+.hero-button {
+    background-color: #4D5AE5;
+    font-family: inherit;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
-    background-color: #4d5ae5;
+    color: #ffffff;
     cursor: pointer;
 }
 
-.hero > .hero-button:active, .hero-button:focus {
-    background-color: #4D5AE5;
-}
-
-.hero > .hero-button:hover {
-    background-color: #404BBF;
+.hero-button:hover, .hero-button:focus {
+    background-color: #404bbf;
 }
 
 .strategy-title, .punctuality-title,
