@@ -105,41 +105,51 @@ p {
     background-color: #404bbf;
 }
 
-.strategy-title, .punctuality-title,
-.diligence-title, .technologies-title {
+.features-subtitle {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.strategy-text, .punctuality-text,
-.diligence-text, .technologies-text{
+.features-text{
+    font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
 .team {
-    background-color: #f4f4fd;
+    background-color: #F4F4FD;
 }
 
 .team-title {
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .team-card {
-    background-color: #fff;
+    background-color: #FFFFFF;
 }
 
-.team-card > h3 {
+.team-subtitle {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 
-.team-card > p {
-    font-weight: 400;
+.team-text {
+    font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
 }
