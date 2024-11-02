@@ -181,21 +181,12 @@ p {
     background-color: #2e2f42;
 }
 
-footer .footer-link {
-    color: inherit;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
-footer > a > span {
-    color: #4d5ae5;
-}
-
-footer > .footer-text {
-    font-family: "Raleway", sans-serif;
+.footer-logo-span {
     color: #f4f4fd;
+}
+
+.footer-text {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
